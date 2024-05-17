@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анализатор служебных переговоров</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>UnlockHT</h1>
+    </header>
+    <main>
+        <section id="upload-section">
+            <h2>Загрузите запись голосового разговора</h2>
+            <form id="upload-form">
+                <input type="file" id="file-input" accept="audio/*">
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+        <section id="transcript-section">
+            <h2>Расшифровка текста</h2>
+            <textarea id="transcript" readonly></textarea>
+        </section>
+    </main>
+    <script src="/static/app.js"></script>
+</body>
+</html>
