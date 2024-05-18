@@ -1,4 +1,9 @@
-# cphtkn
+# Анализатор служебных переговоров
+
+Для старта программы пропишите в терминале:
+cd ./src && uvicorn main:app --reload
+cd ./src/uiuxpython && streamlit run uiux.py
+
 
 Структура папок:
 
